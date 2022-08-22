@@ -49,7 +49,6 @@ function totalPlayerExpense(){
   if(totalPlayers > 0){    //   checking players length 
    
     if(perPlayerCost > 0){     //checking total players cost
-        
         setInnerText('total-player-cost', totalExpenses)
     }else{
         return alert('Please enter a valid amount')
@@ -68,7 +67,6 @@ function calculateTotalCosting(){
    // checking managerCost & coachCost is greater than 0 or not   
     if((managerCost > 0) && (coachCost > 0)){
        const totalCost = totalPlayerExpense() + managerCost + coachCost
-       console.log(totalCost);
        setInnerText('total-cost', totalCost)
 }else{
     return alert('Please enter a valid amount')
