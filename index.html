@@ -11,8 +11,9 @@
 <body>
     <header class="header-area flex items-center">
            <div class="header-text container mx-auto px-80 ">
-            <h1 class="text-orange-600 text-center text-7xl font-bold py-8"> Select Your best Five</h1>
-            <p class="text-white text-center text-xl">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <h1 class="text-orange-600 text-center text-7xl font-bold py-2"> Select Your best Five</h1>
+            <img src="./images/Line Marker.png" alt="" srcset="" class="ml-auto">
+            <p class="text-white text-center text-xl py-6">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
            </div>
     </header>
     <main>
@@ -159,8 +160,38 @@
                             <li class="text-white font-medium text-lg leading-10">Lionel Messi</li>
                             <li class="text-white font-medium text-lg leading-10">Lionel Messi</li>
                             <li class="text-white font-medium text-lg leading-10">Lionel Messi</li>      
-                        </ol>
-                      
+                        </ol>                     
+                    </div>
+
+                    <div class="player-budget-area my-16">
+                        <div class="player-budget-inner bg-card py-5 px-16">
+                            <h2 class="player-name text-white font-medium text-3xl text-center py-4">Budget</h2>
+                            <img src="./images/Ureg-Ureg Marker.png" alt="" srcset="" class="mx-auto">
+                            <div class="player-costing my-6">
+                                <div class="single-player flex justify-between items-center">
+                                <label for="per-player" class="text-white  font-medium  text-lg">Per Player</label>
+                                <input type="number" id="per-player" class="text-white px-5 font-medium bg-transparent py-3 outline-none border border-slate-50 w-3/5 ">
+                                </div>
+                                <button class="bg-sky-600 flex w-full mx-auto justify-center my-6 text-white py-4 font-medium text-xl hover:bg-slate-300 hover:text-slate-600" id="calculate">Calculate</button>
+                                <div class="total-player-expense flex justify-between items-center">
+                                    <p class="text-white  font-medium  text-lg">Player Expenses</p>
+                                    <p  class="text-white  font-medium  text-lg">$ <span id="total-player-cost">10000</span></p>
+                                </div>
+                                <div class="maneger-cost flex justify-between items-center my-8">
+                                    <label for="Manager" class="text-white  font-medium  text-lg">Manager</label>
+                                    <input type="number" id="manager" class="text-white px-5 font-medium bg-transparent py-3 outline-none border border-slate-50 w-3/5 ">
+                                </div>
+                                <div class="coach-cost flex justify-between items-center my-6">
+                                    <label for="coach" class="text-white  font-medium  text-lg">Coach</label>
+                                    <input type="number" id="coach" class="text-white px-5 font-medium bg-transparent py-3 outline-none border border-slate-50 w-3/5 ">
+                                </div>
+                                <button class="bg-sky-600 flex w-full mx-auto justify-center my-6 text-white py-4 font-medium text-xl hover:bg-slate-300 hover:text-slate-600" id="calculate-total">Calculate Total</button>
+                                <div class="total-cost flex justify-between items-center">
+                                    <p class="text-white  font-medium  text-lg">Total Cost</p>
+                                    <p  class="text-white  font-medium  text-lg">$ <span id="total-cost">10000</span></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
