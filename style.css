@@ -13,3 +13,6 @@ body{
     background-size: cover;
     height: 500px;
 }
+.bg-card{
+    background-color:#0D0D0D;
+}
