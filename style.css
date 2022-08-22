@@ -26,7 +26,7 @@ input::-webkit-inner-spin-button {
 /* disable btn css */
 button:disabled,
 button[disabled]{
-  border: 1px solid #999999;
+  /* border: 1px solid #999999; */
   background-color: #cccccc;
   color: #666666;
 }
